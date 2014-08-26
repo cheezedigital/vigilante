@@ -5,6 +5,7 @@
 
 #= require jquery
 #= require batman/batman.jquery
+#= require bootstrap-sprockets
 
 #= require_self
 
