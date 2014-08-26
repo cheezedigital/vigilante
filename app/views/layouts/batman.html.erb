@@ -7,12 +7,18 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+ <%= render 'shared/nav' %>
+ <div class="container">
+   <div data-yield="main">
+     <script type="text/javascript">
+       Vigilante.run();
+       <%= render 'shared/footer' %>
+     </script>
+   </div>
+ </div>
 
-<div data-yield="main"></div>
 
-<script type="text/javascript">
-  Vigilante.run();
-</script>
+
 
 </body>
 </html>
