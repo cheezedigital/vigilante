@@ -1,0 +1,1 @@
+class Vigilante.ApplicationController extends Batman.Controller
